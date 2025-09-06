@@ -30,7 +30,7 @@ Este projeto documenta o passo a passo prático para criar, configurar e gerenci
 
 ### 🛠️ Tecnologias e Ferramentas Utilizadas
 
-- **Bootcamp:** <img src="https://img.shields.io/badge/Bootcamp-Santander%20Code%20Girls-red?style=for-the-badge" alt="Santander Code Girls">
+- **Bootcamp:** <img src="https://img.shields.io/badge/Santander%20Code%20Girls-red?style=for-the-badge" alt="Santander Code Girls">
 - **Cloud Provider:** <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
 - **Versionamento:** <img src="https://img.shields.io/badge/GIT-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 - **Hospedagem de Código:** <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
