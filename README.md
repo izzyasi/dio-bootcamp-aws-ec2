@@ -41,7 +41,7 @@ Este projeto documenta o passo a passo prático para criar, configurar e gerenci
 
 Todo o processo detalhado será documentado na pasta `anotações`.
 
-➡️ **[Acesse as anotações completas aqui](./anotacoes/anotacoes.md)**
+➡️ **[Acesse as anotações completas aqui](./anotacoes/anotacoes)**
 
 ---
 
