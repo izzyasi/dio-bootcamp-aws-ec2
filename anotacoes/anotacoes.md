@@ -8,6 +8,10 @@ Estas são as anotações e conceitos chave estudados durante o bootcamp **Santa
 
 EC2 é o serviço de servidores virtuais na nuvem da AWS. Ele permite alugar e gerenciar servidores (conhecidos como instâncias) para rodar aplicações.
 
+A AWS oferece diferentes famílias de instâncias, cada uma otimizada para um tipo específico de carga de trabalho, como computação, memória ou armazenamento.
+
+![Tabela com as principais famílias de instâncias EC2 e seus casos de uso.](../assets/add01.jpg)
+
 - **Nomenclatura de Instâncias:** As instâncias seguem um padrão de nome, como `t3.large`, que indica:
   - **`t`**: Família da instância.
   - **`3`**: Geração da instância.
@@ -63,6 +67,18 @@ Existem diferentes modelos de precificação para as instâncias, cada um adequa
 - **Amazon S3 Glacier:** Classe de armazenamento de baixo custo para arquivamento e backup de longo prazo. É o último passo do ciclo de vida.
   - Se estiver a < 90 dias ele estará no S3 e se estiver a > 90 dias ele vai estar no Glacier.
 
+  As classes de armazenamento do S3 permitem otimizar os custos com base na frequência de acesso aos dados.
+
+![Visão geral das principais classes de armazenamento do S3.](../assets/add05.jpg)
+
+O espectro de acesso vai desde dados acessados frequentemente (S3 Standard) até dados de arquivamento raramente acessados (S3 Glacier Deep Archive).
+
+![Espectro das classes de armazenamento S3 baseado na frequência de acesso.](../assets/add06.jpg)
+
+A tabela abaixo detalha as características técnicas de cada classe, como durabilidade, disponibilidade e taxas de recuperação.
+
+![Tabela comparativa detalhada das classes de armazenamento do S3.](../assets/add04.jpg)
+
 ### Amazon EBS (Elastic Block Store)
 
 - **O que é:** Serviço que fornece volumes de armazenamento em bloco de alta performance, funcionando como um "HD externo" para as instâncias EC2.
@@ -70,6 +86,10 @@ Existem diferentes modelos de precificação para as instâncias, cada um adequa
 - **Casos de Uso:**
   - Armazenar bancos de dados (como MySQL).
   - Armazenar arquivos de aplicações web.
+
+Este diagrama ilustra como uma instância EC2 principal pode se conectar e utilizar múltiplos volumes EBS para diferentes necessidades de armazenamento.
+
+![Diagrama de uma instância EC2 conectada a volumes EBS.](../assets/add02.jpg)
 
 ---
 
@@ -91,7 +111,19 @@ Existem diferentes modelos de precificação para as instâncias, cada um adequa
 - **Armazenamento:** Os snapshots são armazenados de forma incremental no Amazon S3.
 - **Frequência:** É possível configurar a frequência com que os snapshots são tirados.
 
+O fluxo de um Snapshot de EBS demonstra sua flexibilidade e importância para a resiliência. Um backup de um volume em uma Zona de Disponibilidade (ex: US-EAST-1A) pode ser usado para restaurar os dados em uma nova Zona (ex: AP-SOUTH-1B).
+
+![Fluxo de criação e restauração de um Snapshot de EBS entre diferentes Zonas de Disponibilidade.](../assets/add03.jpg)
+
 ### Diferença: AMI vs. Snapshot
 
 - **AMI:** É um "backup" do **servidor inteiro**, incluindo todos os volumes EBS anexados. É um modelo para criar novas instâncias.
 - **Snapshot:** É uma cópia pontual de um **volume EBS específico**. É um backup de um "disco" individual, que pode ser usado para restaurar esse disco ou criar novos volumes.
+
+---
+
+## (Bônus) Exemplo de Arquitetura Serverless na AWS
+
+Este diagrama ilustra uma arquitetura mais avançada e orientada a eventos, utilizando serviços gerenciados da AWS. Aplicações web se conectam a um **API Gateway**, que aciona funções **Lambda**. A função Lambda, por sua vez, pode interagir com um banco de dados (DataBase) e tomar decisões de armazenamento de dados no S3, movendo-os para o S3 Glacier conforme o tempo de vida definido (ex: > 90 dias).
+
+![Exemplo de uma arquitetura serverless utilizando API Gateway, Lambda, S3 e Glacier.](../assets/add07.jpg)
