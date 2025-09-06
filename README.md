@@ -1,3 +1,11 @@
+![Banner do Projeto](./assets/banner.png)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Bootcamp-Santander%20Code%20Girls-ff69b4?style=for-the-badge&logo=github" alt="Santander Code Girls">
+  <img src="https://img.shields.io/badge/DIO-Digital%20Innovation%20One-purple?style=for-the-badge&logo=digital-ocean" alt="Digital Innovation One">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge" alt="Status Concluído">
+</p>
+
 # Desafio de Projeto: Gerenciamento de Instâncias EC2 na AWS
 
 Repositório criado para o Desafio de Projeto da [Digital Innovation One](https://www.dio.me/). O objetivo era consolidar os conhecimentos sobre o gerenciamento de instâncias EC2 no ambiente da Amazon Web Services (AWS), documentando o processo de forma clara e estruturada.
@@ -21,6 +29,7 @@ Este projeto documenta o passo a passo prático para criar, configurar e gerenci
 
 ### 🛠️ Tecnologias e Ferramentas Utilizadas
 
+- **Bootcamp:** <img src="https://img.shields.io/badge/Santander%20Code%20Girls-ff69b4?style=for-the-badge&logo=github" alt="Santander Code Girls">
 - **Cloud Provider:** <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
 - **Versionamento:** <img src="https://img.shields.io/badge/GIT-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 - **Hospedagem de Código:** <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
