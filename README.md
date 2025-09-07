@@ -37,7 +37,7 @@ Este repositório serve como um guia de consulta e um resumo dos principais conc
 
 ---
 
-### 📖 Passo a Passo e Anotações
+### 📖 Anotações
 
 Todo o processo detalhado será documentado na pasta `anotações`.
 
@@ -45,6 +45,6 @@ Todo o processo detalhado será documentado na pasta `anotações`.
 
 ---
 
-### 👨‍💻 Autor
+### 👨‍💻 Autora
 
 Feito por **Isabelly Penteado**.
