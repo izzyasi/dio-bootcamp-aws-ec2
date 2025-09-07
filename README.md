@@ -15,7 +15,7 @@ Repositório criado para o Desafio de Projeto da [Digital Innovation One](https:
 
 ### ✨ Sobre o Projeto
 
-Este projeto documenta o passo a passo prático para criar, configurar e gerenciar uma instância EC2 na AWS. Serve como um material de consulta e demonstração das competências adquiridas durante o bootcamp.
+Este repositório serve como um guia de consulta e um resumo dos principais conceitos de Cloud Computing com AWS, baseados no conteúdo do Bootcamp Santander Code Girls | DIO. Ele documenta os fundamentos teóricos que serviram de base para a realização dos desafios práticos do curso, como o de provisionamento de instâncias EC2.
 
 ---
 
@@ -24,7 +24,7 @@ Este projeto documenta o passo a passo prático para criar, configurar e gerenci
 - **Aplicação Prática:** Utilização do console da AWS para provisionar recursos.
 - **Documentação Técnica:** Habilidade de documentar processos de forma clara e estruturada.
 - **Versionamento com Git:** Uso do Git e GitHub para compartilhar e versionar a documentação.
-- **Conceitos de Nuvem:** Entendimento de conceitos chave como Instâncias, Security Groups, Key Pairs e AMIs.
+- **Conceitos de Nuvem:** Entendimento de conceitos chave como Instâncias, EC2, S3, EBS e AMIs.
 
 ---
 
