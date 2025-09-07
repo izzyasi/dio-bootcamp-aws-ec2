@@ -125,13 +125,13 @@ O fluxo de um Snapshot de EBS demonstra sua flexibilidade e importância para a 
 
 O diagrama abaixo ilustra a arquitetura do desafio com EC2, mostrando a relação entre o usuário, a instância, os volumes EBS e o RDS.
 
-![Diagrama da Arquitetura EC2](./assets/diagrama-arquitetura-ec2.svg)
+![Diagrama da Arquitetura EC2](../assets/diagrama-arquitetura-ec2.svg)
 
 ### 🏛️ Diagrama da Arquitetura S3 e Lambda
 
 Este diagrama mostra um fluxo de trabalho orientado a eventos, onde um arquivo enviado ao S3 aciona uma função Lambda que processa e armazena os dados no DynamoDB.
 
-![Diagrama da Arquitetura S3 e Lambda](./assets/diagrama-arquitetura-s3.svg)
+![Diagrama da Arquitetura S3 e Lambda](../assets/diagrama-arquitetura-s3.svg)
 
 ## (Bônus) Exemplo de Arquitetura Serverless na AWS
 
