@@ -39,7 +39,7 @@ Este repositório serve como um guia de consulta e um resumo dos principais conc
 
 ### 📖 Anotações
 
-Todo o processo detalhado será documentado na pasta `anotações`.
+O conteúdo teórico aprofundado, com todos os resumos e diagramas, pode ser acessado na pasta `anotações`.
 
 ➡️ **[Acesse as anotações completas aqui](./anotacoes/anotacoes.md)**
 
